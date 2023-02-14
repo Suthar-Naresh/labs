@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
                 DatePickerDialog datePickerDialog = new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener(){
                    public void onDateSet(DatePicker view, int year, int month, int day){
-                       seldate.setText(day+"/"+(month-1)+"/"+year);
+                       seldate.setText(day+"/"+(month+1)+"/"+year);
                    }
                 },yr,m,d);
 
